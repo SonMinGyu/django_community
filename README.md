@@ -1,4 +1,4 @@
-# Grammer-modify
+# Django_community
 ### Django를 이용한 아주 간단한 커뮤니티 사이트
 ---------------------
 # Developer
