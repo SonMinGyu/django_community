@@ -1,0 +1,15 @@
+0. 가상환경 설정
+1. 프로젝트 생성: django-admin startproject 프로젝트이름
+2. 앱 생성: django-admin startapp 앱이름
+3. templates 폴더: 생성한 앱폴더 안에 templates 폴더 추가
+4. setting: 프로젝트이름 폴더안의 setting.py에 INSTALLED_APPS에 생성한 앱 추가
+5. 앱 모델: 생성한 앱 폴더 안에 model.py 에서 클레스 생성하고 생성할 DB 작성
+6. DB makemigrations: 터미널에 python manage.py makemigrations 해서 쿼리 날려줄 migrations 생성
+7. DB migrate: 터미널에 python manage.py migrate 해서 DB테이블 생성
+8. admin 계정 생성: 터미널에 python manage.py createsuperuser 해서 admin 계정 생성
+9. 서버 run: 터미널에 python manage.py runserver 해서 서버 작동
+10. 서버 stop: 터미널에서 ctrl + c 눌러서 서버 중지
+11. admin에 앱 모델등록: 앱 폴더 admin.py 작성
+12. 앱에 url 생성: 앱 폴더에 urls.py 생성
+13. 프로젝트에 앱 urls 연결: 프로젝트 폴더의 urls에 앱 urls 연결
+14. view 연결: 앱 폴더의 views에 html 연결 코드 작성(templates에 html 있어야함)
